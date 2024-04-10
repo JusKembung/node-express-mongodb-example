@@ -1,0 +1,23 @@
+meta {
+  name: Post User 2
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:5000/api/users
+  body: json
+  auth: none
+}
+
+headers {
+  Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwidXNlcklkIjoiNjYxNGZkYjA4OWRjNzNlNGE1MjAyOTdmIiwiaWF0IjoxNzEyNjcyNTcyLCJleHAiOjE3MTI3NTg5NzJ9.S7toPeOiWkb_Lg3bFzQ81s8xpFATXa77ZrHZq4srygI
+}
+
+body:json {
+  {
+    "name":"Juki",
+    "email":"jusbatuk@gmail.com",
+    "password":"aduhsakit"
+  }
+}
